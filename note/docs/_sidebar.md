@@ -1,2 +1,1 @@
-* [home]()
-* [home1](a/1.md)
+* [Activity知识归纳](android/activity.md)

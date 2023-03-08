@@ -17,8 +17,8 @@
     routerMode: 'history',
     topMargin: 40,
     loadSidebar: true,
-    subMaxLevel: 4,
-search: {
+    subMaxLevel: 1,
+	search: {
         maxAge: 3600000,// 过期时间，单位毫秒，默认一天
         paths: 'auto',// 注意：仅适用于 paths: 'auto' 模式
         placeholder: '搜索',
@@ -27,7 +27,21 @@ search: {
         hideOtherSidebarContent: false,
         namespace: '',
         sidebarDisplayLevel: 1,
-      }
+      },
+	  count: {
+          countable: true,
+          position: "top",
+          margin: "10px",
+          float: "right",
+          fontsize: "0.9em",
+          color: "red",
+          language: "chinese",
+          localization: {
+            words: "",
+            minute: "",
+          },
+          isExpected: true,
+	  }
 
     }
   </script>
